@@ -1,0 +1,19 @@
+#productCard {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+    #productCard {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
+
+#product-card-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
